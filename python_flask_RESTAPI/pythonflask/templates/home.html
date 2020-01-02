@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block content %}
+	{% for i in r %}
+		<h1> {{ i.author }}</h1>
+		<p>by {{ i.title }}</p>
+	{% endfor %}
+{% endblock content %}
